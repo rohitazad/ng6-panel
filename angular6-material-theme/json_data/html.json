@@ -1,0 +1,348 @@
+{
+    "id":200,
+    "titleName": "HTML",
+    "desc" : "HTML Quiz (HTML, HTML-5, HTML-API Etc.)",
+    "questions": [
+        {
+            "id":2001,
+            "questionTitle": " Which tag is used if you want to highlight something that is important to the reader?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20011,
+                    "questionId": 2001,
+                    "name": "<i>",
+                    "isAns": false
+                },
+                {
+                    "id":20012,
+                    "questionId": 2001,
+                    "name": "<strong>",
+                    "isAns": false
+                },
+                {
+                    "id":20013,
+                    "questionId": 2001,
+                    "name": "<em> ",
+                    "isAns": false
+                },
+                {
+                    "id":20014,
+                    "questionId": 2001,
+                    "name": "<b>",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":2002,
+            "questionTitle": "Which tag is used if you want to indicate the importance of the phrase?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20021,
+                    "questionId": 2002,
+                    "name": "<h2>",
+                    "isAns": false
+                },
+                {
+                    "id":20022,
+                    "questionId": 2002,
+                    "name": "<h1>",
+                    "isAns": false
+                },
+                {
+                    "id":20023,
+                    "questionId": 2002,
+                    "name": "<em>",
+                    "isAns": false
+                },
+                {
+                    "id":20024,
+                    "questionId": 2002,
+                    "name": "<strong>",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":2003,
+            "questionTitle": "Which of the following tag represents a section of the document intended for navigation in HTML5?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20031,
+                    "questionId": 2003,
+                    "name": "footer",
+                    "isAns": false
+                },
+                {
+                    "id":20032,
+                    "questionId": 2003,
+                    "name": "nav",
+                    "isAns": true
+                },
+                {
+                    "id":20033,
+                    "questionId": 2003,
+                    "name": "section",
+                    "isAns": false
+                },
+                {
+                    "id":20034,
+                    "questionId": 2003,
+                    "name": "dialog",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":2004,
+            "questionTitle": "Which of the following is true about Session Storage in HTML5?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20041,
+                    "questionId": 2004,
+                    "name": "HTML5 introduces the sessionStorage attribute which would be used by the sites to add data to the session storage.",
+                    "isAns": false
+                },
+                {
+                    "id":20042,
+                    "questionId": 2004,
+                    "name": "It will be accessible to any page from the same site opened in that window i.e. session.",
+                    "isAns": false
+                },
+                {
+                    "id":20043,
+                    "questionId": 2004,
+                    "name": "As soon as you close the window, session would be lost.",
+                    "isAns": false
+                },
+                {
+                    "id":20044,
+                    "questionId": 2004,
+                    "name": "All of the above.",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":2005,
+            "questionTitle": "Which of the following is correct about Server Side Events(SSE) in HTML5?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20051,
+                    "questionId": 2005,
+                    "name": "Using SSE you can push DOM events continously from your web server to the visitor's browser.",
+                    "isAns": false
+                },
+                {
+                    "id":20052,
+                    "questionId": 2005,
+                    "name": "The event streaming approach opens a persistent connection to the server, sending data to the client when new information is available, eliminating the need for continuous polling.",
+                    "isAns": false
+                },
+                {
+                    "id":20053,
+                    "questionId": 2005,
+                    "name": "Server-sent events standardizes how we stream data from the server to the client.",
+                    "isAns": false
+                },
+                {
+                    "id":20054,
+                    "questionId": 2005,
+                    "name": "All of the above.",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":2006,
+            "questionTitle": " Which of the following is correct about geolocation api in HTML5?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20061,
+                    "questionId": 2006,
+                    "name": "The geolocation APIs work with a new property of the global navigator object.",
+                    "isAns": false
+                },
+                {
+                    "id":20062,
+                    "questionId": 2006,
+                    "name": "The geolocation object is a service object that allows widgets to retrieve information about the geographic location of the device.",
+                    "isAns": false
+                },
+                {
+                    "id":20063,
+                    "questionId": 2006,
+                    "name": "Both of the above.",
+                    "isAns": true
+                },
+                {
+                    "id":20064,
+                    "questionId": 2006,
+                    "name": "None of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":2007,
+            "questionTitle": " Which of the following attribute triggers event when an element is invalid?",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20071,
+                    "questionId": 2007,
+                    "name": "onhaschange",
+                    "isAns": false
+                },
+                {
+                    "id":20072,
+                    "questionId": 2007,
+                    "name": "oninput",
+                    "isAns": false
+                },
+                {
+                    "id":20073,
+                    "questionId": 2007,
+                    "name": "oninvalid",
+                    "isAns": true
+                },
+                {
+                    "id":20074,
+                    "questionId": 2007,
+                    "name": "onvalidate",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":2008,
+            "questionTitle": " The <!DOCTYPE> declaration in HTML5 is",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20081,
+                    "questionId": 2008,
+                    "name": "<!DOCTYPE html!>",
+                    "isAns": false
+                },
+                {
+                    "id":20082,
+                    "questionId": 2008,
+                    "name": "<!DOCTYPE html;>",
+                    "isAns": false
+                },
+                {
+                    "id":20083,
+                    "questionId": 2008,
+                    "name": "<!DOCTYPE html>",
+                    "isAns": true
+                },
+                {
+                    "id":20084,
+                    "questionId": 2008,
+                    "name": "<!DOCTYPE html:>",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":2009,
+            "questionTitle": " The HTML5 element used to draw graphics via scripting is",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":20091,
+                    "questionId": 2009,
+                    "name": "<header>",
+                    "isAns": false
+                },
+                {
+                    "id":20092,
+                    "questionId": 2009,
+                    "name": "<canvas>",
+                    "isAns": true
+                },
+                {
+                    "id":20093,
+                    "questionId": 2009,
+                    "name": "<figcaption>",
+                    "isAns": false
+                },
+                {
+                    "id":20094,
+                    "questionId": 2009,
+                    "name": "<mark>",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":20010,
+            "questionTitle": " The element to specify a list of predefined options for input controls is",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":200101,
+                    "questionId": 20010,
+                    "name": "<embed>",
+                    "isAns": false
+                },
+                {
+                    "id":200102,
+                    "questionId": 20010,
+                    "name": "<datalist>",
+                    "isAns": true
+                },
+                {
+                    "id":200103,
+                    "questionId": 20010,
+                    "name": "<source>",
+                    "isAns": false
+                },
+                {
+                    "id":200104,
+                    "questionId": 20010,
+                    "name": "<track>",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":20011,
+            "questionTitle": " The tag used to define navigation links is",
+            "questionTypeId" : 200,
+            "options" : [
+                {
+                    "id":200111,
+                    "questionId": 20011,
+                    "name": "<dialog>",
+                    "isAns": false
+                },
+                {
+                    "id":200112,
+                    "questionId": 20011,
+                    "name": "<header>",
+                    "isAns": false
+                },
+                {
+                    "id":200113,
+                    "questionId": 20011,
+                    "name": " <meter>",
+                    "isAns": false
+                },
+                {
+                    "id":200114,
+                    "questionId": 20011,
+                    "name": "<nav>",
+                    "isAns": true
+                }
+            ]
+        }
+    ]
+}

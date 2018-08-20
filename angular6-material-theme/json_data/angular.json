@@ -1,0 +1,441 @@
+{
+    "id":700,
+    "titleName": "Angular 2, Angular 4, Angular 5, Angular 6",
+    "desc" : "Angular  Quiz (2,4,5,6 Etc.)",
+    "questions": [
+        {
+            "id":7001,
+            "questionTitle": "Which of the following is correct about Angular 2 Components?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70011,
+                    "questionId": 7001,
+                    "name": " - AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers.",
+                    "isAns": false
+                },
+                {
+                    "id":70012,
+                    "questionId": 7001,
+                    "name": " - Components help to build the applications into many modules.",
+                    "isAns": false
+                },
+                {
+                    "id":70013,
+                    "questionId": 7001,
+                    "name": " - This helps in better maintaining the application over a period of time.",
+                    "isAns": false
+                },
+                {
+                    "id":70014,
+                    "questionId": 7001,
+                    "name": " - All of the above.",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":7002,
+            "questionTitle": " Which of the following is true?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70021,
+                    "questionId": 7002,
+                    "name": " - Angular 2 Service can be used to bring the modules together.",
+                    "isAns": false
+                },
+                {
+                    "id":70022,
+                    "questionId": 7002,
+                    "name": " - Angular 2 Template can be used to bring the modules together.",
+                    "isAns": false  
+                },
+                {
+                    "id":70023,
+                    "questionId": 7002,
+                    "name": " - Angular 2 Component can be used to bring the modules together.",
+                    "isAns": true
+                },
+                {
+                    "id":70024,
+                    "questionId": 7002,
+                    "name": " - None of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7003,
+            "questionTitle": "  - Which of the following is correct about Import Array in Angular 2 Modules?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70031,
+                    "questionId": 7003,
+                    "name": " - Import array can be used to import the functionality from other Angular JS modules.",
+                    "isAns": true
+                },
+                {
+                    "id":70032,
+                    "questionId": 7003,
+                    "name": " - Import array can be used to import the templates.",
+                    "isAns": false
+                },
+                {
+                    "id":70033,
+                    "questionId": 7003,
+                    "name": " - Both of the above.",
+                    "isAns": false
+                },
+                {
+                    "id":70034,
+                    "questionId": 7003,
+                    "name": " - None of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7004,
+            "questionTitle": " Which of the following is correct about Angular 2 Error Handling?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70041,
+                    "questionId": 7004,
+                    "name": " - This is done by including the ReactJS catch library and then using the catch function.",
+                    "isAns": false
+                },
+                {
+                    "id":70042,
+                    "questionId": 7004,
+                    "name": " - The catch function contains a link to the Error Handler function.",
+                    "isAns": false
+                },
+                {
+                    "id":70043,
+                    "questionId": 7004,
+                    "name": " - Both of the above.",
+                    "isAns": true
+                },
+                {
+                    "id":70044,
+                    "questionId": 7004,
+                    "name": " - None of the above.",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":7005,
+            "questionTitle": " Which of the following is correct about systemjs.config.json?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70051,
+                    "questionId": 7005,
+                    "name": " - This file is used to give the options about TypeScript used for the Angular JS project.",
+                    "isAns": false
+                },
+                {
+                    "id":70052,
+                    "questionId": 7005,
+                    "name": " - This file contains information about Angular 2 project.",
+                    "isAns": false
+                },
+                {
+                    "id":70053,
+                    "questionId": 7005,
+                    "name": "  - This file contains the system files required for Angular JS application.",
+                    "isAns": true
+                },
+                {
+                    "id":70054,
+                    "questionId": 7005,
+                    "name": " - All of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7006,
+            "questionTitle": " Which of the following filter is used to convert input to all lowercase?",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70061,
+                    "questionId": 7006,
+                    "name": " - lowercase",
+                    "isAns": true
+                },
+                {
+                    "id":70062,
+                    "questionId": 7006,
+                    "name": " - lower",
+                    "isAns": false
+                },
+                {
+                    "id":70063,
+                    "questionId": 7006,
+                    "name": " - Both of the above.",
+                    "isAns": false
+                },
+                {
+                    "id":70064,
+                    "questionId": 7006,
+                    "name": " - None of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7007,
+            "questionTitle": " Which of the following filter is used to convert an input string to date format.",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70071,
+                    "questionId": 7007,
+                    "name": " - dateformat",
+                    "isAns": false
+                },
+                {
+                    "id":70072,
+                    "questionId": 7007,
+                    "name": " - date",
+                    "isAns": true
+                },
+                {
+                    "id":70073,
+                    "questionId": 7007,
+                    "name": " - Both of the above.",
+                    "isAns": false
+                },
+                {
+                    "id":70074,
+                    "questionId": 7007,
+                    "name": " - None of the above.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7008,
+            "questionTitle": " Which of the following is correct about lifecycle hook - ngOnChanges.",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70081,
+                    "questionId": 7008,
+                    "name": " - When the value of a data bound property changes, then this method is called.",
+                    "isAns": true
+                },
+                {
+                    "id":70082,
+                    "questionId": 7008,
+                    "name": " - This is called whenever the initialization of the directive/component after Angular first displays the data-bound properties happens.",
+                    "isAns": false
+                },
+                {
+                    "id":70083,
+                    "questionId": 7008,
+                    "name": " - This is for the detection and to act on changes that Angular can't or won't detect on its own.",
+                    "isAns": false
+                },
+                {
+                    "id":70084,
+                    "questionId": 7008,
+                    "name": " - This is called in response after Angular projects external content into the component's view.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":7009,
+            "questionTitle": " Which of the following is correct about lifecycle hook - ngAfterContentChecked.",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":70091,
+                    "questionId": 7009,
+                    "name": " - This is called in response after Angular checks the content projected into the component.",
+                    "isAns": true
+                },
+                {
+                    "id":70092,
+                    "questionId": 7009,
+                    "name": " - This is called in response after Angular initializes the component's views and child views.",
+                    "isAns": false
+                },
+                {
+                    "id":70093,
+                    "questionId": 7009,
+                    "name": " - This is called in response after Angular checks the component's views and child views.",
+                    "isAns": false
+                },
+                {
+                    "id":70094,
+                    "questionId": 7009,
+                    "name": " - This is the cleanup phase just before Angular destroys the directive/component.",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":70010,
+            "questionTitle": " Angular 2 is a cross platform framework",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":700101,
+                    "questionId": 70010,
+                    "name": "True",
+                    "isAns": true
+                },
+                {
+                    "id":700102,
+                    "questionId": 70010,
+                    "name": "False",
+                    "isAns": false
+                },
+                {
+                    "id":700103,
+                    "questionId": 70010,
+                    "name": "none",
+                    "isAns": false
+                },
+                {
+                    "id":700104,
+                    "questionId": 70010,
+                    "name": "question is wrong",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":70011,
+            "questionTitle": " You can use languages like . . . . . . . . . to write Angular 2 code. ",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":700111,
+                    "questionId": 70011,
+                    "name": "ES5",
+                    "isAns": false
+                },
+                {
+                    "id":700112,
+                    "questionId": 70011,
+                    "name": "ES6",
+                    "isAns": false
+                },
+                {
+                    "id":700113,
+                    "questionId": 70011,
+                    "name": "TypeScriptor",
+                    "isAns": false
+                },
+                {
+                    "id":700114,
+                    "questionId": 70011,
+                    "name": "all of above",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":70012,
+            "questionTitle": " The . . . . . . . . . . directive substitutes the normal href property and makes it easier to work with route links in Angular 2.",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":700121,
+                    "questionId": 70012,
+                    "name": "RouterLink",
+                    "isAns": true
+                },
+                {
+                    "id":700122,
+                    "questionId": 70012,
+                    "name": "RouterRend",
+                    "isAns": false
+                },
+                {
+                    "id":700123,
+                    "questionId": 70012,
+                    "name": " RouterLike",
+                    "isAns": false
+                },
+                {
+                    "id":700124,
+                    "questionId": 70012,
+                    "name": "RouterLayer",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":70013,
+            "questionTitle": " Angular 2 is an open source JavaScript framework to build web applications in HTML and JavaScript and has been conceived as a . . . . . . . . . ",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":700131,
+                    "questionId": 70013,
+                    "name": "mobile first approach",
+                    "isAns": true
+                },
+                {
+                    "id":700132,
+                    "questionId": 70013,
+                    "name": "UI first approach",
+                    "isAns": false
+                },
+                {
+                    "id":700133,
+                    "questionId": 70013,
+                    "name": "web first approach",
+                    "isAns": false
+                },
+                {
+                    "id":700134,
+                    "questionId": 70013,
+                    "name": "all of above",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":70014,
+            "questionTitle": "  Angular 2 has a . . . . . . . service that allows us to dynamically load a component in a certain position on the page. ",
+            "questionTypeId" : 700,
+            "options" : [
+                {
+                    "id":700141,
+                    "questionId": 70014,
+                    "name": "DynamicControlLoader",
+                    "isAns": false
+                },
+                {
+                    "id":700142,
+                    "questionId": 70014,
+                    "name": "DynamicControllerLoader",
+                    "isAns": false
+                },
+                {
+                    "id":700143,
+                    "questionId": 70014,
+                    "name": "DynaCompLoader",
+                    "isAns": false
+                },
+                {
+                    "id":700144,
+                    "questionId": 70014,
+                    "name": "DynamicComponentLoader",
+                    "isAns": true
+                }
+            ]
+        }
+    ]
+}

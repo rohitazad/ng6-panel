@@ -1,0 +1,441 @@
+{
+    "id":100,
+    "titleName": "JavaScript",
+    "desc" : "Java-script Quiz (ES-5, ES-6 Etc.)",
+    "questions": [
+        {
+            "id":1001,
+            "questionTitle": "JavaScript Code can be called by using",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10011,
+                    "questionId": 1001,
+                    "name": "RMI",
+                    "isAns": false
+                },
+                {
+                    "id":10012,
+                    "questionId": 1001,
+                    "name": "Triggering Event",
+                    "isAns": false
+                },
+                {
+                    "id":10013,
+                    "questionId": 1001,
+                    "name": "Preprocessor",
+                    "isAns": false
+                },
+                {
+                    "id":10014,
+                    "questionId": 1001,
+                    "name": "Function/Method",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":1002,
+            "questionTitle": " The type of a variable that is volatile is",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10021,
+                    "questionId": 1002,
+                    "name": "Volatile variable",
+                    "isAns": false
+                },
+                {
+                    "id":10022,
+                    "questionId": 1002,
+                    "name": "Mutable variable",
+                    "isAns": true
+                },
+                {
+                    "id":10023,
+                    "questionId": 1002,
+                    "name": "Immutable variable",
+                    "isAns": false
+                },
+                {
+                    "id":10024,
+                    "questionId": 1002,
+                    "name": "Dynamic variable",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1003,
+            "questionTitle": " A hexadecimal literal begins with",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10031,
+                    "questionId": 1003,
+                    "name": "00",
+                    "isAns": false
+                },
+                {
+                    "id":10032,
+                    "questionId": 1003,
+                    "name": "0x",
+                    "isAns": false
+                },
+                {
+                    "id":10033,
+                    "questionId": 1003,
+                    "name": "0X",
+                    "isAns": false
+                },
+                {
+                    "id":10034,
+                    "questionId": 1003,
+                    "name": "Both 0x and 0X",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":1004,
+            "questionTitle": "The snippet that has to be used to check if “a” is not equal to null is",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10041,
+                    "questionId": 1004,
+                    "name": "if(a!=null)",
+                    "isAns": false
+                },
+                {
+                    "id":10042,
+                    "questionId": 1004,
+                    "name": "if (!a)",
+                    "isAns": false
+                },
+                {
+                    "id":10043,
+                    "questionId": 1004,
+                    "name": "if(a!null)",
+                    "isAns": false
+                },
+                {
+                    "id":10044,
+                    "questionId": 1004,
+                    "name": " if(a!==null)",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":1005,
+            "questionTitle": " The statement a===b refers to",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10051,
+                    "questionId": 1005,
+                    "name": "Both a and b are equal in value, type and reference address",
+                    "isAns": false
+                },
+                {
+                    "id":10052,
+                    "questionId": 1005,
+                    "name": "Both a and b are equal in value",
+                    "isAns": false
+                },
+                {
+                    "id":10053,
+                    "questionId": 1005,
+                    "name": " Both a and b are equal in value and type",
+                    "isAns": true
+                },
+                {
+                    "id":10054,
+                    "questionId": 1005,
+                    "name": "There is no such statement",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1006,
+            "questionTitle": " Consider the following code snippet : var grand_Total=eval('10*10+5');",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10061,
+                    "questionId": 1006,
+                    "name": "10*10+5",
+                    "isAns": false
+                },
+                {
+                    "id":10062,
+                    "questionId": 1006,
+                    "name": "105 as a string",
+                    "isAns": false
+                },
+                {
+                    "id":10063,
+                    "questionId": 1006,
+                    "name": "105 as an integer value",
+                    "isAns": true
+                },
+                {
+                    "id":10064,
+                    "questionId": 1006,
+                    "name": "Exception is thrown",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1007,
+            "questionTitle": " What kind of scoping does JavaScript use?",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10071,
+                    "questionId": 1007,
+                    "name": "Literal",
+                    "isAns": false
+                },
+                {
+                    "id":10072,
+                    "questionId": 1007,
+                    "name": "Lexical",
+                    "isAns": true
+                },
+                {
+                    "id":10073,
+                    "questionId": 1007,
+                    "name": "Segmental",
+                    "isAns": false
+                },
+                {
+                    "id":10074,
+                    "questionId": 1007,
+                    "name": "Sequential",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1008,
+            "questionTitle": " Which of the following uses a lot of CPU cycles?",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10081,
+                    "questionId": 1008,
+                    "name": "GUI",
+                    "isAns": false
+                },
+                {
+                    "id":10082,
+                    "questionId": 1008,
+                    "name": "Statically generated graphics",
+                    "isAns": false
+                },
+                {
+                    "id":10083,
+                    "questionId": 1008,
+                    "name": "Dynamically generated graphics",
+                    "isAns": true
+                },
+                {
+                    "id":10084,
+                    "questionId": 1008,
+                    "name": "All of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1009,
+            "questionTitle": " The behaviour of the instances present of a class inside a method is defined by",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":10091,
+                    "questionId": 1009,
+                    "name": "Method",
+                    "isAns": false
+                },
+                {
+                    "id":10092,
+                    "questionId": 1009,
+                    "name": "Classes",
+                    "isAns": true
+                },
+                {
+                    "id":10093,
+                    "questionId": 1009,
+                    "name": "Interfaces",
+                    "isAns": false
+                },
+                {
+                    "id":10094,
+                    "questionId": 1009,
+                    "name": "Classes and Interfaces",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":10010,
+            "questionTitle": " The basic difference between JavaScript and Java is",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":100101,
+                    "questionId": 10010,
+                    "name": "There is no difference",
+                    "isAns": false
+                },
+                {
+                    "id":100102,
+                    "questionId": 10010,
+                    "name": "Functions are considered as fields",
+                    "isAns": false
+                },
+                {
+                    "id":100103,
+                    "questionId": 10010,
+                    "name": "Variables are specific",
+                    "isAns": false
+                },
+                {
+                    "id":100104,
+                    "questionId": 10010,
+                    "name": "Functions are values, and there is no hard distinction between methods and fields",
+                    "isAns": true
+                }
+            ]
+        },
+        {
+            "id":10011,
+            "questionTitle": " The property of JSON() method is:",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":100111,
+                    "questionId": 10011,
+                    "name": "it can be invoked manually as object.JSON()",
+                    "isAns": false
+                },
+                {
+                    "id":100112,
+                    "questionId": 10011,
+                    "name": "it will be automatically invoked by the compiler",
+                    "isAns": false
+                },
+                {
+                    "id":100113,
+                    "questionId": 10011,
+                    "name": "it is invoked automatically by the JSON.stringify() method",
+                    "isAns": true
+                },
+                {
+                    "id":100114,
+                    "questionId": 10011,
+                    "name": "it cannot be invoked in any form",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":10012,
+            "questionTitle": " The four kinds of class members are",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":100121,
+                    "questionId": 10012,
+                    "name": "Instance methods, Instance fields, Static method, Dynamic method",
+                    "isAns": false
+                },
+                {
+                    "id":100122,
+                    "questionId": 10012,
+                    "name": "Instance fields, Instance methods, Class fields, Class methods",
+                    "isAns": true
+                },
+                {
+                    "id":100123,
+                    "questionId": 10012,
+                    "name": " Instance fields, Non-instance fields, Dynamic methods, Global methods",
+                    "isAns": false
+                },
+                {
+                    "id":100124,
+                    "questionId": 10012,
+                    "name": "Global methods, Local methods, Dynamic methods, Static methods",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":10013,
+            "questionTitle": " The properties of the objects act like different kinds of class members. They are",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":100131,
+                    "questionId": 10013,
+                    "name": "Public object, Private object, Protected object",
+                    "isAns": false
+                },
+                {
+                    "id":100132,
+                    "questionId": 10013,
+                    "name": "Constructor object, Function object, Destructor object",
+                    "isAns": false
+                },
+                {
+                    "id":100133,
+                    "questionId": 10013,
+                    "name": "Constructor object, Prototype object, Instance object",
+                    "isAns": true
+                },
+                {
+                    "id":100134,
+                    "questionId": 10013,
+                    "name": "Instance method, Static object, Dynamic object",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":10014,
+            "questionTitle": " The object whose properties are inherited by all instances of the class, and properties whose values are functions behaving like instance methods of the class, is",
+            "questionTypeId" : 100,
+            "options" : [
+                {
+                    "id":100141,
+                    "questionId": 10014,
+                    "name": "Instance object",
+                    "isAns": false
+                },
+                {
+                    "id":100142,
+                    "questionId": 10014,
+                    "name": "Constructor object",
+                    "isAns": false
+                },
+                {
+                    "id":100143,
+                    "questionId": 10014,
+                    "name": "Destructor object",
+                    "isAns": false
+                },
+                {
+                    "id":100144,
+                    "questionId": 10014,
+                    "name": "Prototype object",
+                    "isAns": true
+                }
+            ]
+        }
+    ]
+}
