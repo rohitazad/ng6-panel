@@ -1,0 +1,44 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  https://medium.com/@geeksamu/using-angular-material-with-angular-6-862a1c3d04b
+</div>
+1. ng new angualr6-material-theme  <br />
+<hr />
+2. ng add @angular/material @angular/cdk <br />
+3. npm install --save hammerjs 
+4. http://fuse-angular-material.withinpixels.com/apps/dashboards/analytics
+5. https://material.io/tools/icons/?style=baseline
+6. https://www.npmjs.com/package/ngx-scrollbar#usage // for aside scrollbar 
+7.  https://stackoverflow.com/questions/8012002/create-a-unique-number-with-javascript-time  // ganarate for random number 
+8.  https://github.com/softgandhi/ng2-quiz/tree/master/src/app // here sample quiz application 
+9. https://www.sanfoundry.com/1000-javascript-questions-answers/  for ans & ques
+-->
+
+<app-nav></app-nav>
+
+<mat-sidenav-container class="my-container">
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+      <app-aside></app-aside> 
+  </mat-sidenav>
+
+  <mat-sidenav-content class="container-wraper">
+   
+      <button mat-raised-button (click)="sidenav.toggle()" class="side-menu">
+          <span *ngIf="opened"> <i class="material-icons">arrow_back_ios</i> Hide Side Menu</span>
+          <span *ngIf="!opened"> Show Side Menu<i class="material-icons">arrow_forward_ios</i></span>
+      </button>
+    
+      <mat-card class="page-wraper">
+            <mat-toolbar>
+                    <app-breadcrumb></app-breadcrumb>
+                  </mat-toolbar>
+          <router-outlet></router-outlet>
+      </mat-card>
+    
+  
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<app-footer></app-footer> 

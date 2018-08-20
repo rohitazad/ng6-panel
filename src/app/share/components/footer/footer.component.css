@@ -1,0 +1,113 @@
+
+.footer{
+    background-color:#3f51b5;
+    position: relative;
+    border: 0;
+    margin-top:0; 
+    padding:20px;
+}
+
+.heading5 {
+    text-align: center;
+    color: #fff;
+    font-size: 29px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+.socialIcon, .footerLinking {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.socialIcon li, .footerLinking li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.socialIcon li {
+    text-decoration: none;
+    font-size: 0px;
+    box-shadow: 1px 1px 7px 0px rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 15px 0;
+    -moz-border-radius: 15px 0;
+    border-radius: 15px 0;
+    background-color: #fff;
+    webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.socialIcon li + li {
+    margin-left: 10px;
+}
+.socialIcon li a {
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 50px;
+    color: #3f51b5;
+}
+.socialIcon li a:hover{
+    color:#f44336;
+}
+.socialIcon li:hover, 
+.socialIcon li:hover .fa {
+    webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.socialIcon li a:hover {
+    box-shadow: none;
+}
+.footerLinking li a {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    margin-right: 20px;
+}
+.footerLinking li a:after {
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 2px;
+    bottom: 3px;
+    border-right: solid 2px #fff;
+}
+.foText {
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+.foText a {
+    color: #fff;
+    text-decoration: underline;
+}
+.crop {
+    overflow: hidden;
+}
+
+@media screen 
+  and (min-width: 200px) 
+  and (max-width: 650px)  { 
+
+   
+    
+
+    .socialIcon li {
+        margin-left:10px;
+        margin-top: 10px;
+    }
+}

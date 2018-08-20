@@ -1,0 +1,4 @@
+
+<button mat-raised-button color="primary"  [routerLink]="['/applications/todo/add-todo']" class="add-to-btn">Add Todo</button>
+
+<todo-app-view [todoViewData]="_allTodoData" (todoIdValue)="getTodoId($event)"></todo-app-view>

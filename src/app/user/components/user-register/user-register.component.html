@@ -1,0 +1,82 @@
+
+
+
+
+<div class="login-container register">
+ 
+  <mat-card>
+
+      <div class="brand">
+          User Register
+      </div>
+<form [formGroup]="userForm" novalidate (ngSubmit)="registerUser()">
+      <mat-form-field>
+          <input matInput [formControlName]="'fNameUser'" placeholder="Enter your first name" type="text">
+        <mat-icon matSuffix>account_circle</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [formControlName]="'lNameUser'" placeholder="Enter your last name" type="text">
+      <mat-icon matSuffix>account_circle</mat-icon>
+    </mat-form-field>
+
+
+    <mat-form-field>
+      <mat-select placeholder="Gender"  [formControlName]="'genderUser'">
+        <mat-option *ngFor="let gender of genders" [value]="gender.value">
+          {{ gender.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput [formControlName]="'emailUser'" placeholder="Enter email id" type="text">
+    <mat-icon matSuffix>email</mat-icon>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput [formControlName]="'phoneUser'" placeholder="Enter mobile no" type="text">
+  <mat-icon matSuffix>mobile_screen_share</mat-icon>
+</mat-form-field>
+
+
+<mat-form-field>
+  <input [min]="minDate" [max]="maxDate" matInput [formControlName]="'userDob'"  placeholder="Enter Date of Birth" [matDatepicker]="picker">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+  
+  <mat-form-field>
+      <input matInput [formControlName]="'pwdUser'" placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
+      <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput [formControlName]="'conPwdUser'" placeholder="Confirm your password" [type]="hide ? 'password' : 'text'">
+        <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+      </mat-form-field>
+
+
+
+    <button type="submit" [disabled]="!userForm.valid" mat-raised-button color="primary">
+    Submit
+  </button>
+</form>
+
+
+
+
+  <div class="link-sec">
+    <div class="lft-sec inline-block"><a [routerLink]="['/forget-password']">Forgot password?</a></div>
+    <div class="rgt-sec inline-block"><a [routerLink]="['/sign-in']">Sign In</a></div>
+  </div>
+  
+
+
+  </mat-card>
+
+  
+
+</div>
+
+

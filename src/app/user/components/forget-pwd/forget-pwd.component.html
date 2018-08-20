@@ -1,0 +1,49 @@
+
+
+
+
+<div class="login-container">
+ 
+  <mat-card>
+
+      <div class="brand">
+        Forget Password
+      </div>
+
+
+  <form [formGroup]="userForgetPwd" novalidate (ngSubmit)="userForgetPwdFn()">
+  
+
+  
+    <mat-form-field>
+      <input matInput  [formControlName]="'userEmail'" placeholder="Enter your email id" type="text">
+    <mat-icon matSuffix>account_circle</mat-icon>
+  </mat-form-field>
+    
+    
+    
+    
+    
+      <button type="submit" [disabled]="!userForgetPwd.valid" mat-raised-button color="primary">
+      Submit
+    </button>
+    </form>
+
+
+
+   
+
+  <div class="link-sec">
+    <div class="lft-sec inline-block"><a [routerLink]="['/sign-in']">Sign In</a></div>
+    <div class="rgt-sec inline-block">Not a member? <a class="color-blue" [routerLink]="['/sign-up']">Create accaunt</a></div>
+  </div>
+  
+
+
+  </mat-card>
+
+  
+
+</div>
+
+

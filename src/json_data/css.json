@@ -1,0 +1,317 @@
+{
+    "id":400,
+    "titleName": "CSS Questions & Answers – Using Advanced Selectors",
+    "desc" : "Css Quiz (Css, Css3 Etc.)",
+    "questions": [
+        {
+            "id":1001,
+            "questionTitle": "Which of the following selector selects all elements of E that have the attribute attr that end with the given value?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10011,
+                    "questionId": 1001,
+                    "name": "E[attr^=value]",
+                    "isAns": false
+                },
+                {
+                    "id":10012,
+                    "questionId": 1001,
+                    "name": "E[attr$=value]",
+                    "isAns": true
+                },
+                {
+                    "id":10013,
+                    "questionId": 1001,
+                    "name": "E[attr*=value]",
+                    "isAns": false
+                },
+                {
+                    "id":10014,
+                    "questionId": 1001,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1002,
+            "questionTitle": " Which of the following selector selects the elements that are checked?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10021,
+                    "questionId": 1002,
+                    "name": "E ~ F",
+                    "isAns": false
+                },
+                {
+                    "id":10022,
+                    "questionId": 1002,
+                    "name": "::after",
+                    "isAns": false
+                },
+                {
+                    "id":10023,
+                    "questionId": 1002,
+                    "name": ":checked",
+                    "isAns": true
+                },
+                {
+                    "id":10024,
+                    "questionId": 1002,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1003,
+            "questionTitle": " Which of the following selector selects the elements that are the default among a set of similar elements?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10031,
+                    "questionId": 1003,
+                    "name": ":default",
+                    "isAns": true
+                },
+                {
+                    "id":10032,
+                    "questionId": 1003,
+                    "name": ":%",
+                    "isAns": false
+                },
+                {
+                    "id":10033,
+                    "questionId": 1003,
+                    "name": ":disabled",
+                    "isAns": false
+                },
+                {
+                    "id":10034,
+                    "questionId": 1003,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1004,
+            "questionTitle": "Which of the following selector selects an element that has no children?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10041,
+                    "questionId": 1004,
+                    "name": ":empty",
+                    "isAns": true
+                },
+                {
+                    "id":10042,
+                    "questionId": 1004,
+                    "name": ":nochild",
+                    "isAns": false
+                },
+                {
+                    "id":10043,
+                    "questionId": 1004,
+                    "name": ":inheritance",
+                    "isAns": false
+                },
+                {
+                    "id":10044,
+                    "questionId": 1004,
+                    "name": " :no-child",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1005,
+            "questionTitle": "  Which of the following selector selects the elements that are currently enabled?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10051,
+                    "questionId": 1005,
+                    "name": ":element",
+                    "isAns": false
+                },
+                {
+                    "id":10052,
+                    "questionId": 1005,
+                    "name": ":empty",
+                    "isAns": false
+                },
+                {
+                    "id":10053,
+                    "questionId": 1005,
+                    "name": " :enabled",
+                    "isAns": true
+                },
+                {
+                    "id":10054,
+                    "questionId": 1005,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1006,
+            "questionTitle": " Which of the following selector selects the element that is the first child of its parent that is of its type?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10061,
+                    "questionId": 1006,
+                    "name": ":first-of-type",
+                    "isAns": true
+                },
+                {
+                    "id":10062,
+                    "questionId": 1006,
+                    "name": ":last-child",
+                    "isAns": false
+                },
+                {
+                    "id":10063,
+                    "questionId": 1006,
+                    "name": "::first-line",
+                    "isAns": false
+                },
+                {
+                    "id":10064,
+                    "questionId": 1006,
+                    "name": "::first-letter",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1007,
+            "questionTitle": " Which of the following selector selects elements that do not match the selector s?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10071,
+                    "questionId": 1007,
+                    "name": ":!(s)",
+                    "isAns": false
+                },
+                {
+                    "id":10072,
+                    "questionId": 1007,
+                    "name": ":nth-child(s)",
+                    "isAns": false
+                },
+                {
+                    "id":10073,
+                    "questionId": 1007,
+                    "name": ":not(s)",
+                    "isAns": true
+                },
+                {
+                    "id":10074,
+                    "questionId": 1007,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1008,
+            "questionTitle": "  Which of the following selector selects an element if it’s the only child of its parent?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10081,
+                    "questionId": 1008,
+                    "name": ":root",
+                    "isAns": false
+                },
+                {
+                    "id":10082,
+                    "questionId": 1008,
+                    "name": ":nth-oftype(n)",
+                    "isAns": false
+                },
+                {
+                    "id":10083,
+                    "questionId": 1008,
+                    "name": ":only-child",
+                    "isAns": true
+                },
+                {
+                    "id":10084,
+                    "questionId": 1008,
+                    "name": "none of the mentioned",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":1009,
+            "questionTitle": " Which of the following selector selects the element that is the target of a referring URI?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":10091,
+                    "questionId": 1009,
+                    "name": ":target",
+                    "isAns": true
+                },
+                {
+                    "id":10092,
+                    "questionId": 1009,
+                    "name": ":selection",
+                    "isAns": false
+                },
+                {
+                    "id":10093,
+                    "questionId": 1009,
+                    "name": "::selection",
+                    "isAns": false
+                },
+                {
+                    "id":10094,
+                    "questionId": 1009,
+                    "name": ":URI",
+                    "isAns": false
+                }
+            ]
+        },
+        {
+            "id":10010,
+            "questionTitle": " Which of the following selector applies styles to elements that are valid per HTML5 validations set either with the pattern or type attributes?",
+            "questionTypeId" : 400,
+            "options" : [
+                {
+                    "id":100101,
+                    "questionId": 10010,
+                    "name": ":valid",
+                    "isAns": true
+                },
+                {
+                    "id":100102,
+                    "questionId": 10010,
+                    "name": ":required",
+                    "isAns": false
+                },
+                {
+                    "id":100103,
+                    "questionId": 10010,
+                    "name": ":optional",
+                    "isAns": false
+                },
+                {
+                    "id":100104,
+                    "questionId": 10010,
+                    "name": ":invalid",
+                    "isAns": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+
+<div class="todo-wraper">
+  
+  <div class="todo-sec">
+    <h5>In progress</h5>
+      <ul class="toto-list-item">
+        <li *ngFor="let inProgress of todoViewData._inProgress">
+          <div class="edit-sec"><i title="Edit" (click)="editTodoList(inProgress.id, 'in-progress')" class="material-icons">edit </i>
+          </div>
+
+          <span class="title-text">{{inProgress.title}}</span>
+          <span class="desc-text">{{inProgress.discription}}</span>
+          <span class="desc-date">{{inProgress._dateCreated | date:mediumDate}}</span>
+          <!-- <div class="btn-group">
+              <button mat-raised-button color="primary">Done</button>
+              <button mat-raised-button color="warn" (click)="editTodoList(inProgress.id, 'in-progress')">Edit</button>
+          </div> -->
+        </li>
+      </ul>
+  </div>
+  
+  <div class="todo-sec">
+    <h5>Testing</h5>
+      <ul class="toto-list-item">
+        <li *ngFor="let _testing of todoViewData._testing">
+            <div class="edit-sec"><i title="Edit" (click)="editTodoList(_testing.id, 'testing')" class="material-icons">edit </i>
+            </div>
+          <span class="title-text">{{_testing.title}}</span>
+          <span class="desc-text">{{_testing.discription}}</span>
+          <span class="desc-date">{{_testing._dateCreated | date:mediumDate}}</span>
+          <!-- <div class="btn-group">
+              <button mat-raised-button color="primary">Done</button>
+              <button mat-raised-button color="warn" (click)="editTodoList(_testing.id, 'testing')">Edit</button>
+          </div> -->
+        </li>
+      </ul>
+  </div>
+
+  <div class="todo-sec">
+    <h5>Tested</h5>
+      <ul class="toto-list-item">
+        <li *ngFor="let _tested of todoViewData._tested">
+            <div class="edit-sec"><i title="Edit" (click)="editTodoList(_tested.id, 'tested')" class="material-icons">edit </i>
+            </div>
+          <span class="title-text">{{_tested.title}}</span>
+          <span class="desc-text">{{_tested.discription}}</span>
+          <span class="desc-date">{{_tested._dateCreated | date:mediumDate}}</span>
+          <!-- <div class="btn-group">
+              <button mat-raised-button color="primary">Done</button>
+              <button mat-raised-button color="warn" (click)="editTodoList(_tested.id, 'tested')">Edit</button>
+          </div> -->
+        </li>
+      </ul>
+  </div>
+  
+
+  <div class="todo-sec">
+    <h5>Code Review</h5>
+      <ul class="toto-list-item">
+        <li *ngFor="let _review of todoViewData._review">
+            <div class="edit-sec"><i title="Edit" (click)="editTodoList(_review.id, 'code-review')" class="material-icons">edit </i>
+            </div>
+          <span class="title-text">{{_review.title}}</span>
+          <span class="desc-text">{{_review.discription}}</span>
+          <span class="desc-date">{{_review._dateCreated | date:mediumDate}}</span>
+          <!-- <div class="btn-group">
+              <button mat-raised-button color="primary">Done</button>
+              <button mat-raised-button color="warn" (click)="editTodoList(_review.id, 'code-review')">Edit</button>
+          </div> -->
+        </li>
+      </ul>
+  </div>
+
+  
+
+
+</div>

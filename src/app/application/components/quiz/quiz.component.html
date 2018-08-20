@@ -1,0 +1,88 @@
+
+  <div class="quiz-sec">
+    <h2>Quiz Application</h2>
+    <div class="select-sec">
+        <mat-form-field>
+            <mat-select  [(ngModel)]="selectedValue" (ngModelChange)="loadMyAc(selectedValue)" placeholder="Favorite quiz">
+              <mat-option *ngFor="let quizItem of quizItems" [value]="quizItem.id">
+                {{ quizItem.name }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div> 
+  </div>
+
+  <div class="quiz-wraper" *ngIf="quiz">
+    <h3>{{quiz.titleName}}</h3>
+  </div>
+
+  <div class="quiz-wraper" *ngIf="mode== 'quiz' && quiz">
+    <ul>
+      <li *ngFor="let question of filteredQuestions;">
+          <div class="text-head">Question {{pager.index + 1}} of {{pager.count}}.</div>
+          <h4>{{pager.index + 1}}. <span>{{question.questionTitle}}</span></h4>
+          <ul class="question-option">
+            <li *ngFor="let option of question.options">
+                
+                    <mat-checkbox class="customCheckBox" id="{{option.id}}" [(ngModel)]="option.selected" (change)="onSelect(question, option);">{{option.name}}</mat-checkbox>
+                    
+            </li>
+          </ul>
+      </li>
+    </ul>
+    <div class="btn-group">
+        <button mat-raised-button color="primary" *ngIf="config.allowBack" (click)="goTo(0);">First</button>
+        <button mat-raised-button color="accent" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
+        <button mat-raised-button color="accent" (click)="goTo(pager.index + 1);">Next</button>
+        <button mat-raised-button color="primary" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button>
+      </div>
+  </div>
+
+
+
+  <div class="btn-group result-btn" *ngIf="mode!='result'">
+    <button mat-raised-button color="accent" (click)="mode = 'quiz'">Quiz</button>
+    <button mat-raised-button color="accent" (click)="mode = 'review'">Review</button>
+    <button mat-raised-button color="primary" (click)="onSubmit();">Submit Quiz</button>
+  </div>
+
+
+  <div *ngIf="mode=='result'" class="quiz-wraper">
+
+      <h2>Quiz Result</h2>
+
+      <ul>
+          <li *ngFor="let question of quiz.questions; let index = index">
+              <h4>{{index + 1}}. {{question.questionTitle}}</h4>
+              <ul class="question-option">
+                <li *ngFor="let option of question.options">
+                    <mat-checkbox class="customCheckBox" id="{{option.id}}" [(ngModel)]="option.selected" [disabled]="'true'">{{option.name}}</mat-checkbox> 
+                </li>
+              </ul>
+              <div class="ans-sec {{ isCorrect(question) == 'correct'? 'success-ans': 'danger-ans'}}">Your answer is {{isCorrect(question)}}.</div>
+          </li>
+        </ul>
+
+      
+      
+      
+    </div>
+
+
+  
+
+ 
+
+ 
+
+
+
+    <div class="review-question" *ngIf="mode=='review'">
+        <ul>
+          <li *ngFor="let question of quiz.questions; let index = index;" (click)="goTo(index)" class="{{ isAnswered(question) == 'Answered'? 'info-btn': 'warn-btn' }}">
+              {{index + 1}}. {{ isAnswered(question) }}
+          </li>
+        </ul>
+      </div>
+  
+

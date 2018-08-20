@@ -1,0 +1,37 @@
+<button mat-raised-button   (click)="goBackTodoList()" class="add-to-btn">Back to todo list</button>
+
+
+<form [formGroup]="todoForm" novalidate (ngSubmit)="addTodo()" class="form-width">
+    <mat-form-field class="form-full-width">
+        <input [formControlName]="'toDoTitle'" matInput placeholder="Todo title" value="">
+    </mat-form-field>
+
+    <mat-form-field class="form-full-width">
+        <textarea [formControlName]="'todoDescription'" matInput placeholder="Leave a todo description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field  class="form-full-width">
+      <mat-select [formControlName]="'todoCategory'" placeholder="Todo Category">
+        <mat-option *ngFor="let category of categories" [value]="category.value">
+          {{ category.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="form-full-width">
+      <input matInput [formControlName]="'todoStartDate'" [min]="minDate" [max]="maxDate" [matDatepicker]="picker" placeholder="Choose a date">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <div class="btn-group" *ngIf="!editId && !edittodoCategory">
+        <button mat-raised-button color="primary" [disabled]="!todoForm.valid" class="add-to-btn">Create Todo</button>
+    </div>
+
+    <div class="btn-group" *ngIf="editId && edittodoCategory">
+      <button type="button" mat-raised-button color="warn" (click)="removeTodo()" class="add-to-btn">Remove</button>
+      <button type="button" mat-raised-button color="accent" (click)="goBackTodoList()" class="add-to-btn">Cancel</button>
+      <button mat-raised-button color="primary" [disabled]="!todoForm.valid" class="add-to-btn">Update Todo</button>
+  </div>
+    
+</form>

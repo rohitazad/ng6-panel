@@ -1,0 +1,62 @@
+
+<ng-scrollbar [autoHide]="true">
+<mat-accordion class="custom-accordion">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            <mat-icon>dashboards</mat-icon>Dashboards
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul class="side-nav-list">
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/analytics']">Analytics</a></li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/project']">Project</a></li>
+      </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <mat-icon>lock</mat-icon>Authentication
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul class="side-nav-list">
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/sign-in']">Sign In</a></li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/sign-up']">Sign Up</a></li>
+        <li [routerLinkActive]="['active']"><a [routerLink]="['/forget-password']">Forget Password</a></li>
+      </ul>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon>pages</mat-icon>Pages
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <ul class="side-nav-list">
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/404']">404</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/500']">500</a></li>
+
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/buttons']">Buttons</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/calanders']">Date/Calander</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/forms']">Forms</a></li>
+          
+          
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/graphs']">Graph</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/pages/tables']">Data Table</a></li>
+        </ul>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon>apps</mat-icon>Applications
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <ul class="side-nav-list">
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/applications/todo']">To-Do</a></li>
+          <li [routerLinkActive]="['active']"><a [routerLink]="['/applications/quiz']">Quiz</a></li>
+          
+        </ul>
+      </mat-expansion-panel>
+  </mat-accordion>
+</ng-scrollbar>

@@ -1,0 +1,170 @@
+
+<div class="page-example">
+  
+  <div class="head">
+    <h1>Button varieties</h1>
+    <div class="codeBtn" (click)="showCode = !showCode">
+      <i class="material-icons" matTooltip="View source">code</i>
+    </div>
+  </div>
+  <div class="code-sec" *ngIf="showCode">
+    <mat-tab-group>
+      <mat-tab label="HTML">
+        <!-- ================================================================================ -->
+        <pre class="docs-example-source">
+          <code>
+      &lt;h3&gt;Basic Buttons&lt;/h3&gt;
+      &lt;div class="button-row" &gt;
+        &lt;button mat-button>Basic&lt;/button&gt;
+        &lt;button mat-button color="primary">Primary&lt;/button&gt;
+        &lt;button mat-button color="accent">Accent&lt;/button&gt;
+        &lt;button mat-button color="warn">Warn&lt;/button&gt;
+        &lt;button mat-button disabled>Disabled&lt;/button&gt;
+        &lt;a mat-button routerLink=".">Link&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;h3&gt;Raised Buttons&lt;/h3&gt;
+      &lt;div class="button-row" &gt;
+        &lt;button mat-raised-button>Basic&lt;/button&gt;
+        &lt;button mat-raised-button color="primary">Primary&lt;/button&gt;
+        &lt;button mat-raised-button color="accent">Accent&lt;/button&gt;
+        &lt;button mat-raised-button color="warn">Warn&lt;/button&gt;
+        &lt;button mat-raised-button disabled>Disabled&lt;/button&gt;
+        &lt;a mat-raised-button routerLink=".">Link&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;h3&gt;Icon Buttons&lt;/h3&gt;
+      &lt;div class="button-row"&gt;
+        &lt;button mat-icon-button&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-icon-button  color="primary"&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-icon-button  color="accent"&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-icon-button  color="warn"&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-icon-button  disabled&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+
+      &lt;h3&gt;Fab Buttons&lt;/h3&gt;
+      &lt;div class="button-row"&gt;
+        &lt;button mat-fab&gt;
+          &lt;mat-fab&gt;Basic&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-fab  color="primary"&gt;
+          &lt;mat-icon>primary&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-fab  color="accent"&gt;
+          &lt;mat-icon>accent&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-fab  color="warn"&gt;
+          &lt;mat-icon>warn&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-fab  disabled&gt;
+          &lt;mat-icon>disabled&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;button mat-fab&gt;
+          &lt;mat-icon aria-label="Example icon-button with a heart icon">favorite&lt;/mat-icon&gt;
+        &lt;/button&gt;
+        &lt;a mat-fab routerLink=".">Link&lt;/a&gt;
+      &lt;/div&gt;
+
+     
+
+
+
+<!-- <h3>Mini Fab Buttons</h3>
+<div class="button-row">
+  <button mat-mini-fab>Basic</button>
+  <button mat-mini-fab color="primary">Primary</button>
+  <button mat-mini-fab color="accent">Accent</button>
+  <button mat-mini-fab color="warn">Warn</button>
+  <button mat-mini-fab disabled>Disabled</button>
+  <button mat-mini-fab>
+    <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+  </button>
+  <a mat-mini-fab routerLink=".">Link</a>
+</div> -->
+          
+        </code>
+        </pre>
+        <!-- ================================================================================ -->
+      </mat-tab>
+      <mat-tab label="TS"> Content 2 </mat-tab>
+      <mat-tab label="CSS"> Content 3 </mat-tab>
+    </mat-tab-group>
+  </div>
+  <div class="preview-sec">
+    <h3>Basic Buttons</h3>
+    <div class="button-row">
+      <button mat-button>Basic</button>
+      <button mat-button color="primary">Primary</button>
+      <button mat-button color="accent">Accent</button>
+      <button mat-button color="warn">Warn</button>
+      <button mat-button disabled>Disabled</button>
+      <a mat-button routerLink=".">Link</a>
+    </div>
+
+    <h3>Raised Buttons</h3>
+    <div class="button-row">
+      <button mat-raised-button>Basic</button>
+      <button mat-raised-button color="primary">Primary</button>
+      <button mat-raised-button color="accent">Accent</button>
+      <button mat-raised-button color="warn">Warn</button>
+      <button mat-raised-button disabled>Disabled</button>
+      <a mat-raised-button routerLink=".">Link</a>
+    </div>
+
+    <h3>Icon Buttons</h3>
+    <div class="button-row">
+      <button mat-icon-button>
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <button mat-icon-button color="primary">
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <button mat-icon-button color="accent">
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <button mat-icon-button color="warn">
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <button mat-icon-button disabled>
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+    </div>
+
+    <h3>Fab Buttons</h3>
+    <div class="button-row">
+      <button mat-fab>Basic</button>
+      <button mat-fab color="primary">Primary</button>
+      <button mat-fab color="accent">Accent</button>
+      <button mat-fab color="warn">Warn</button>
+      <button mat-fab disabled>Disabled</button>
+      <button mat-fab>
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <a mat-fab routerLink=".">Link</a>
+    </div>
+
+    <h3>Mini Fab Buttons</h3>
+    <div class="button-row">
+      <button mat-mini-fab>Basic</button>
+      <button mat-mini-fab color="primary">Primary</button>
+      <button mat-mini-fab color="accent">Accent</button>
+      <button mat-mini-fab color="warn">Warn</button>
+      <button mat-mini-fab disabled>Disabled</button>
+      <button mat-mini-fab>
+        <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+      </button>
+      <a mat-mini-fab routerLink=".">Link</a>
+    </div>
+  </div>
+  
+</div>

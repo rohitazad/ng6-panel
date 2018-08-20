@@ -1,0 +1,334 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ngx-toastr/toastr.css";
+
+body { margin: 0; font-family: 'Roboto'}
+
+.my-container{
+    min-height: 300px;
+}
+.custom-accordion.mat-accordion{
+    display: block;
+}
+.custom-accordion .mat-expansion-panel-body{
+    padding: 0 0 15px 0;
+}
+.custom-accordion .mat-expansion-panel-header{
+    padding-left:5px; 
+}
+.custom-accordion .mat-expansion-panel-header .mat-icon{
+    width: 18px;
+    height: 19px;
+    margin-right: 8px;
+    vertical-align: top;
+    font-size: 20px;
+}
+.side-nav-list{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.side-nav-list li{
+    padding: 10px 10px 10px 25px;
+}
+.side-nav-list li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.side-nav-list li:hover,
+.side-nav-list li.active{
+    background:#615c5c;
+}
+
+.custom-accordion .mat-expansion-panel-content.mat-expanded{
+    background: #757575;
+    color: #fff;
+}
+.custom-accordion .mat-expansion-panel{
+    background: #615c5c;
+}
+.custom-accordion .mat-expansion-panel-header-title,
+.custom-accordion .mat-expansion-panel-header,
+.custom-accordion .mat-expansion-indicator::after,
+.custom-accordion .mat-expansion-panel{
+    color: #fff;
+}
+.mat-card.page-wraper{
+    margin:10px;
+}
+.container-wraper{
+    position: relative;
+}
+.side-menu.mat-raised-button{
+
+    z-index: 9;
+    top: 6px;
+    left: 1px;
+}
+.side-menu span{
+    font-size: 14px;
+    display: block;
+}
+.side-menu span .material-icons{
+    font-size: 14px;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+
+.todo-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.todo-wraper .todo-sec{
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.4);
+}
+.toto-list-item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toto-list-item li {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 15px 10px;
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.title-text, 
+.desc-text,
+.desc-date{
+    display: block;
+    font-size:12px;
+    color: #1f1f1f;
+}
+.title-text{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 17px;
+}
+.desc-date{
+    text-align: right;
+    font-size: 11px;
+}
+.btn-group{
+    margin-top: 10px;
+}
+.btn-group .mat-raised-button + .mat-raised-button {
+    margin-left: 11px;
+}
+.todo-wraper .todo-sec h5 {
+    margin: 0 0 15px 0;
+    padding: 0 0 0px 0;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    border-bottom: solid 1px #fff;
+}
+.add-to-btn.mat-raised-button {
+    margin: 10px 0;
+}
+.form-full-width{
+    width: 100%;
+}
+.form-width{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.toto-list-item li .edit-sec{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.toto-list-item li .edit-sec i{
+    cursor: pointer;
+    font-size: 16px;
+    color: #3f51b5;
+    border-radius: 3px;
+    border: solid 1px #3f51b5;
+}
+
+
+/* ==================================================================================================== */
+#my-breadcrumbs ul{
+    list-style:none;	
+    margin:0;padding: 0;
+}
+#my-breadcrumbs ul li {
+    list-style:none;
+    display:inline-block;
+    vertical-align: top;	
+    margin:0;padding: 0;
+}
+
+
+
+
+#my-breadcrumbs ul li a {
+	display: block;
+    float: left;
+    line-height: 37px;
+    background: #3f51b5;
+    text-align: center;
+    padding: 0 10px 0 20px;
+    position: relative;
+    margin: 0 24px 0 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
+#my-breadcrumbs ul li a:hover{
+  background: #5172B8;
+	     
+	
+	
+}
+
+
+
+
+
+
+
+
+#my-breadcrumbs ul li a:after {
+    content: "";
+    border-top: 19px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 19px solid #3f51b5;
+    position: absolute;
+    right: -19px;
+    top: 0;	
+}
+
+
+
+
+#my-breadcrumbs ul li a:before {
+    content: "";
+    position: absolute;
+    margin-top: 0px;
+    border-width: 18px 0 19px 19px;
+    border-style: solid;
+    border-color: #4060A5 #4060A5 #4060A5 transparent;
+    left: -19px;
+	
+		
+}
+
+/* Hover Effects */
+#my-breadcrumbs ul li a:hover::before {
+  border-color: #5172B8 #5172B8 #5172B8 transparent;
+	     
+	
+	
+}
+/* Hover Effects */
+#my-breadcrumbs ul li a:hover::after{
+border-left-color:  #5172B8;
+	
+	
+}
+
+
+
+/* Hide the Before Pseudo Element */
+#my-breadcrumbs ul li:first-child a:before {
+	display: none; 
+}
+
+
+/* Add Border Radius */
+#my-breadcrumbs ul li:first-child a{
+	border-top-left-radius: 10px; border-bottom-left-radius: 10px;border-bottom-right-radius: 1px;
+}
+/* ==================================================================================================== */
+
+
+
+.quiz-wraper li .mat-checkbox-layout .mat-checkbox-label{
+    display: inline-block;
+    vertical-align: text-top;
+    white-space: normal;
+}
+
+
+.login-container {
+    margin: 30px auto 0 auto;
+    width: 500px;
+}
+.login-container.register{
+    margin: 30px auto 0 auto;
+    width: 700px;
+}
+.login-container .mat-form-field{
+    display: block;
+}
+.login-container.register .mat-form-field{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin:2%;
+}
+.brand {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.link-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.link-sec a {
+    color: #2d70ff;
+    text-decoration: none;
+}
+.valina{
+    text-align: center;
+}
+.page-example{
+    border: 1px solid rgba(0,0,0,.03);
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    margin: 5px;
+}
+.page-example .head{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    margin-top:20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0,0,0,.54);
+    background: rgba(0,0,0,.03);
+}
+.page-example .head h1{
+    padding: 0;
+    margin:0;
+}
+.page-example .head .codeBtn{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+.preview-sec, .code-sec {
+    padding: 10px 20px;
+}
+.code-sec .mat-tab-body-wrapper {
+    padding: 20px;
+    border: solid 1px rgba(0,0,0,0.2);
+    border-top: none;
+}
