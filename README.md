@@ -28,3 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 A simple SPA angular 6 app for admin panel with material css theme base https://rohitazad.github.io/ng6-panel/
+
+Contact to Rohit Azad +91-9953-878727
+Website www.rohitazad.com
+
+Rohit Azad Malik UI Developer / Angular Developer 2,4,5,6 
+
+
