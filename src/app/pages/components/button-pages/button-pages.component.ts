@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./button-pages.component.css']
 })
 export class ButtonPagesComponent implements OnInit {
+  showCode:boolean = false;
 
   constructor() { }
 

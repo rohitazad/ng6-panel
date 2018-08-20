@@ -13,7 +13,7 @@ import { Option } from './models/option';
   styleUrls: ['./quiz.component.css']
 })
 export class QuizComponent implements OnInit {
-
+  selectedValue:any;
   quizItems:any[];
   selected;
   quizName;

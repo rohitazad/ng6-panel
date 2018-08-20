@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   userLoginForm:FormGroup;
+  hide:boolean = false;
 
   constructor(
     fb: FormBuilder,

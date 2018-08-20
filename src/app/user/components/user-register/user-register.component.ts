@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./user-register.component.css']
 })
 export class UserRegisterComponent implements OnInit {
-  
+  hide:boolean= false;
   userForm:FormGroup;
   genders:any[] = [
     {"value": "M", "viewValue": "Male"},
